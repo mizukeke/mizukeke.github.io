@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; /* 左にできる隙間を消す */
+}
+
+header {
+    background-color: #1d4b69;
+    height: 65px;
+    color: #f4f2db;
+}
+
+.header {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    float: left;
+    font-size: 36px;
+    font-weight: normal;
+    padding: 7px 20px;
+}
+
+.header ul {
+    float: right;
+}
+
+.header li {
+    font-size: 24px;
+    float: left;
+    padding: 15px 20px;
+}
+
+.header a {
+    color: #f4f2db;
+    text-decoration: none;
+}
+
+.header a:hover {
+    border-bottom: 1px solid #f4f2db;
+}
+
+.top-wrapper {
+    width: 100%;
+    height: 703px;
+    background-image: url(img/top.jpg);
+    background-position:center bottom; 
+    background-size: cover;
+}
+
+.top-container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.top-container h1 {
+    font-size: 64px;
+    text-align: center;
+    color:#f4f2db;
+    font-weight: normal;
+    padding-top: 250px;
+}
+
+.about {
+    background-color: #424f56;
+    height: 768px;
+}
+
+.about-content {
+    padding: 25px 0;
+    width: 1366px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f4f2db;
+}
+
+.about-content p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.about-contentitem {
+    display: grid;
+    grid-template-rows: 490px;
+    grid-template-columns: repeat(4,auto);
+}
+
+.about-contentitem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.about-itemA {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    height: 490px;
+}
+
+.about-itemB {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    height: 490px;
+}
+
+.about-itemC {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    height: 490px;
+}
+
+.about-itemD {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    height: 490px;
+}
+
+.about-itemA:hover {
+    width: calc(100vh*0.8);
+}
+
+.about-itemB:hover {
+    width: calc(100vh*0.8);
+}
+
+.about-itemC:hover {
+    width: calc(100vh*0.8);
+}
+
+.about-itemD:hover {
+    width: calc(100vh*0.8);
+}
+
+.main {
+    width: 100%;
+    height: 519px;
+}
+
+.spring {
+    background-image: url(img/main1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.summer {
+    background-image: url(img/main2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.autumn {
+    background-image: url(img/main3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.winter {
+    background-image: url(img/main4.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-container {
+    width: 1366px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f4f2db;
+    padding: 80px 0;
+}
+
+.main-container h1 {
+    font-size: 58px;
+    font-weight: normal;
+}
+
+.main-text {
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.icon {
+    width: 92px;
+}
+
+.main-icon {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main-icon-two {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.main-iconA {
+    width: 25%;
+    float: left;
+    padding-left: -50px;
+}
+
+.main-iconA-two {
+    width: 50%;
+    float: left;
+}
+
+.main-iconB {
+    width: 25%;
+    float: left;
+}
+
+.main-iconB-two {
+    width: 50%;
+    float: left;
+}
+
+.main-iconC {
+    width: 25%;
+    float: left;
+}
+
+.main-iconD {
+    width: 25%;
+    float: left;
+}
+
+.main-link {
+    width: 1366px;
+    margin: 0 auto;
+    float: left;
+    padding-top: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 50px;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+} 
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #1d4b69;
+}
+
+.footer-container {
+    width: 1366px;
+    margin: 0 auto;
+    color: #3f83a6;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer-container h1 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.footer-container 9 {
+    font-size: 12px;
+}
